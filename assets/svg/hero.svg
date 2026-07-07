@@ -1,0 +1,57 @@
+<svg width="800" height="200" viewBox="0 0 800 200" xmlns="http://www.w3.org/2000/svg">
+    
+<defs>
+    <style>
+        text {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        }
+        .hero-title { font-weight: 700; font-size: 42px; fill: #ffffff; letter-spacing: -1px; }
+        .hero-role { font-weight: 500; font-size: 18px; fill: #8b949e; letter-spacing: -0.2px; }
+        .hero-mission { font-weight: 400; font-size: 15px; fill: #6e7681; }
+        
+        .cursor { font-weight: 700; fill: #58a6ff; animation: blink 1s step-end infinite; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+        
+        .shimmer {
+            animation: shimmer 8s infinite linear;
+        }
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+    </style>
+
+    <linearGradient id="shimmerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="rgba(255,255,255,0)" />
+        <stop offset="50%" stop-color="rgba(255,255,255,0.05)" />
+        <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </linearGradient>
+
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="rgba(88, 166, 255, 0)" />
+        <stop offset="50%" stop-color="rgba(163, 113, 247, 0.4)" />
+        <stop offset="100%" stop-color="rgba(57, 197, 207, 0)" />
+    </linearGradient>
+</defs>
+
+    <rect width="100%" height="100%" fill="transparent" />
+    
+    <!-- Subtle particle drift background -->
+    <g opacity="0.4">
+        <circle cx="100" cy="50" r="1" fill="#58a6ff"><animate attributeName="cy" values="50;40;50" dur="10s" repeatCount="indefinite"/></circle>
+        <circle cx="700" cy="150" r="1.5" fill="#a371f7"><animate attributeName="cy" values="150;160;150" dur="12s" repeatCount="indefinite"/></circle>
+        <circle cx="400" cy="180" r="1" fill="#39c5cf"><animate attributeName="cx" values="400;410;400" dur="15s" repeatCount="indefinite"/></circle>
+        <circle cx="250" cy="120" r="2" fill="#58a6ff" opacity="0.2"><animate attributeName="r" values="2;3;2" dur="8s" repeatCount="indefinite"/></circle>
+        <circle cx="650" cy="40" r="1" fill="#8b949e"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- Content -->
+    <g transform="translate(400, 85)" text-anchor="middle">
+        <text class="hero-title" y="0">Adarsh Binu</text>
+        <text class="hero-role" y="32">Software Engineer <tspan fill="#30363d">|</tspan> AI &amp; Distributed Systems</text>
+        <text class="hero-mission" y="60">Building robust platforms instead of tutorial projects <tspan class="cursor">_</tspan></text>
+    </g>
+
+    <!-- Very subtle shimmer overlay on top text -->
+    <rect x="0" y="0" width="800" height="200" fill="url(#shimmerGrad)" style="pointer-events: none;" class="shimmer"/>
+</svg>

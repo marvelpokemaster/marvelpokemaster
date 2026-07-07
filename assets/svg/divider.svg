@@ -1,0 +1,41 @@
+<svg width="800" height="2" viewBox="0 0 800 2" xmlns="http://www.w3.org/2000/svg">
+    
+<defs>
+    <style>
+        text {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        }
+        .hero-title { font-weight: 700; font-size: 42px; fill: #ffffff; letter-spacing: -1px; }
+        .hero-role { font-weight: 500; font-size: 18px; fill: #8b949e; letter-spacing: -0.2px; }
+        .hero-mission { font-weight: 400; font-size: 15px; fill: #6e7681; }
+        
+        .cursor { font-weight: 700; fill: #58a6ff; animation: blink 1s step-end infinite; }
+        @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+        
+        .shimmer {
+            animation: shimmer 8s infinite linear;
+        }
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+    </style>
+
+    <linearGradient id="shimmerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="rgba(255,255,255,0)" />
+        <stop offset="50%" stop-color="rgba(255,255,255,0.05)" />
+        <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </linearGradient>
+
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="rgba(88, 166, 255, 0)" />
+        <stop offset="50%" stop-color="rgba(163, 113, 247, 0.4)" />
+        <stop offset="100%" stop-color="rgba(57, 197, 207, 0)" />
+    </linearGradient>
+</defs>
+
+    <!-- Moving glowing segment -->
+    <rect x="-200" y="0" width="400" height="1" fill="url(#dividerGrad)">
+        <animate attributeName="x" values="-400;800" dur="6s" repeatCount="indefinite" />
+    </rect>
+</svg>
