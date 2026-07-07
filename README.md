@@ -7,7 +7,7 @@
 <p align="center">
   <a href="mailto:adarsh.binu@outlook.com"><img src="https://img.shields.io/badge/Email-adarsh.binu%40outlook.com-18181b?style=flat-square&logo=microsoftoutlook&logoColor=ffffff" alt="Email"></a>
   &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/adarshbinu"><img src="https://img.shields.io/badge/LinkedIn-adarshbinu-18181b?style=flat-square&logo=linkedin&logoColor=ffffff" alt="LinkedIn"></a>
+  <a href="https://linkedin.com/in/adarsh-binu"><img src="https://img.shields.io/badge/LinkedIn-adarsh--binu-18181b?style=flat-square&logo=linkedin&logoColor=ffffff" alt="LinkedIn"></a>
   &nbsp;&nbsp;
   <a href="https://github.com/marvelpokemaster"><img src="https://img.shields.io/badge/GitHub-marvelpokemaster-18181b?style=flat-square&logo=github&logoColor=ffffff" alt="GitHub"></a>
 </p>
