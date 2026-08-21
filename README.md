@@ -1,159 +1,24 @@
-<div align="center">
-  <h1>✦ Adarsh Binu ✦</h1>
-  <p><b>Software Engineer &amp; Systems Architect</b></p>
-  <p>Designing high-performance distributed platforms, agentic AI infrastructures, and robust production-ready systems.</p>
-</div>
+# 💫 About Me:
+🔭 I’m currently working on **AI/ML projects, open-source software, and experiments around intelligent systems and developer tooling**.<br><br>👯 I’m looking to collaborate on **open-source projects, AI/ML, developer tools, and interesting engineering problems**.<br><br>🤝 I’m looking for help with **open-source contributions, system design, and turning ambitious ideas into reliable software**.<br><br>🌱 I’m currently learning **Distributed Systems, Generative AI, Graph Neural Networks, and deeper systems engineering**.<br><br>💬 Ask me about **Python, Java, React, Next.js, Flask, FastAPI, PostgreSQL, Docker, Linux, Git, or AI/ML**.<br><br>⚡ Fun fact: **I got into programming through curiosity, stayed for the rabbit holes, and now somehow have Pokémon in my GitHub username.**<br>
 
-<p align="center">
-  <a href="mailto:adarsh.binu@outlook.com"><img src="https://img.shields.io/badge/Email-adarsh.binu%40outlook.com-18181b?style=flat-square&logo=microsoftoutlook&logoColor=ffffff" alt="Email"></a>
-  &nbsp;&nbsp;
-  <a href="https://linkedin.com/in/adarsh-binu"><img src="https://img.shields.io/badge/LinkedIn-adarsh--binu-18181b?style=flat-square&logo=linkedin&logoColor=ffffff" alt="LinkedIn"></a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/marvelpokemaster"><img src="https://img.shields.io/badge/GitHub-marvelpokemaster-18181b?style=flat-square&logo=github&logoColor=ffffff" alt="GitHub"></a>
-</p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=marvelpokemaster&label=telemetry.views&color=18181b&style=flat-square" alt="Views">
-</p>
+## 🌐 Socials:
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/marvelpokemaster) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/adarsh-binu) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:marvelpokemaster@gmail.com) 
 
----
+# 💻 Tech Stack:
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Solidity](https://img.shields.io/badge/Solidity-%23363636.svg?style=for-the-badge&logo=solidity&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.shion.dev/api?username=marvelpokemaster&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://streak-stats.demolab.com/?user=marvelpokemaster&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.shion.dev/api/top-langs/?username=marvelpokemaster&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-### ✦ Current Focus
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-I am currently architecting the MVP for **BuildBridge**, a workforce infrastructure platform designed to handle complex matching mechanics. Concurrently, I'm deep-diving into **Agentic AI orchestration workflows** and **Distributed Systems design patterns**—focusing on system reliability, state synchronization, and building actual products over trivial tutorial code.
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=marvelpokemaster&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
+[![](https://komarev.com/ghpvc/?username=marvelpokemaster&icon=0&color=0)](https://visitcount.itsvg.in)
 
-### ✦ Featured Projects
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛰️ <a href="https://github.com/marvelpokemaster/NullTrace">NullTrace</a></h3>
-      <p><b>AI-Powered Feedback Analytics</b></p>
-      <p>An opinion & feedback analytics engine engineered with secure JWT auth, robust role-based access control, and granular analytic streams. Deployed in containerized microservices on Azure.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flask-18181b?style=flat-square&logo=flask&logoColor=ffffff" alt="Flask">
-        <img src="https://img.shields.io/badge/Next.js-18181b?style=flat-square&logo=nextdotjs&logoColor=ffffff" alt="Next.js">
-        <img src="https://img.shields.io/badge/PostgreSQL-18181b?style=flat-square&logo=postgresql&logoColor=ffffff" alt="PostgreSQL">
-        <img src="https://img.shields.io/badge/Docker-18181b?style=flat-square&logo=docker&logoColor=ffffff" alt="Docker">
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🌉 <a href="https://github.com/marvelpokemaster/BuildBridge">BuildBridge</a></h3>
-      <p><b>Workforce Infrastructure Engine</b></p>
-      <p>A high-performance matching infrastructure connecting contractors with skilled workers. Built as a secure, production-grade MVP featuring real-time data synchronization and resilient session validation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React-18181b?style=flat-square&logo=react&logoColor=ffffff" alt="React">
-        <img src="https://img.shields.io/badge/Node.js-18181b?style=flat-square&logo=nodedotjs&logoColor=ffffff" alt="Node.js">
-        <img src="https://img.shields.io/badge/Supabase-18181b?style=flat-square&logo=supabase&logoColor=ffffff" alt="Supabase">
-        <img src="https://img.shields.io/badge/Vercel-18181b?style=flat-square&logo=vercel&logoColor=ffffff" alt="Vercel">
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔍 <a href="https://github.com/marvelpokemaster/ReconX">ReconX</a></h3>
-      <p><b>OSINT & Asset Intelligence</b></p>
-      <p>Advanced passive reconnaissance intelligence tool. Orchestrates automated DNS enumeration, TLS certificate chain analysis, and target attack surface mapping with real-time API streaming.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-18181b?style=flat-square&logo=python&logoColor=ffffff" alt="Python">
-        <img src="https://img.shields.io/badge/FastAPI-18181b?style=flat-square&logo=fastapi&logoColor=ffffff" alt="FastAPI">
-        <img src="https://img.shields.io/badge/React-18181b?style=flat-square&logo=react&logoColor=ffffff" alt="React">
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/marvelpokemaster/Agentic-Marketing">Agentic Marketing</a></h3>
-      <p><b>Autonomous Campaign Orchestrator</b></p>
-      <p>Multi-agent intelligence framework that automates lead scraping, scores target qualification, and generates personalized hyper-targeted email copy using Gemini API workflows.</p>
-      <p>
-        <img src="https://img.shields.io/badge/PyTorch-18181b?style=flat-square&logo=pytorch&logoColor=ffffff" alt="PyTorch">
-        <img src="https://img.shields.io/badge/Gemini_API-18181b?style=flat-square&logo=google&logoColor=ffffff" alt="Gemini">
-        <img src="https://img.shields.io/badge/Hugging_Face-18181b?style=flat-square&logo=huggingface&logoColor=ffffff" alt="Transformers">
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-### ✦ Technical Arsenal
-
-<table>
-  <tr>
-    <td width="160px"><b>Languages</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Python-18181b?style=flat-square&logo=python&logoColor=ffffff" alt="Python">
-      <img src="https://img.shields.io/badge/TypeScript-18181b?style=flat-square&logo=typescript&logoColor=ffffff" alt="TypeScript">
-      <img src="https://img.shields.io/badge/JavaScript-18181b?style=flat-square&logo=javascript&logoColor=ffffff" alt="JavaScript">
-      <img src="https://img.shields.io/badge/SQL-18181b?style=flat-square&logo=postgresql&logoColor=ffffff" alt="SQL">
-      <img src="https://img.shields.io/badge/Java-18181b?style=flat-square&logo=oracle&logoColor=ffffff" alt="Java">
-      <img src="https://img.shields.io/badge/C-18181b?style=flat-square&logo=c&logoColor=ffffff" alt="C">
-    </td>
-  </tr>
-  <tr>
-    <td><b>Frontend</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Next.js-18181b?style=flat-square&logo=nextdotjs&logoColor=ffffff" alt="Next.js">
-      <img src="https://img.shields.io/badge/React-18181b?style=flat-square&logo=react&logoColor=ffffff" alt="React">
-      <img src="https://img.shields.io/badge/TailwindCSS-18181b?style=flat-square&logo=tailwindcss&logoColor=ffffff" alt="TailwindCSS">
-    </td>
-  </tr>
-  <tr>
-    <td><b>Backend &amp; DB</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Node.js-18181b?style=flat-square&logo=nodedotjs&logoColor=ffffff" alt="Node.js">
-      <img src="https://img.shields.io/badge/FastAPI-18181b?style=flat-square&logo=fastapi&logoColor=ffffff" alt="FastAPI">
-      <img src="https://img.shields.io/badge/Flask-18181b?style=flat-square&logo=flask&logoColor=ffffff" alt="Flask">
-      <img src="https://img.shields.io/badge/PostgreSQL-18181b?style=flat-square&logo=postgresql&logoColor=ffffff" alt="PostgreSQL">
-      <img src="https://img.shields.io/badge/Supabase-18181b?style=flat-square&logo=supabase&logoColor=ffffff" alt="Supabase">
-    </td>
-  </tr>
-  <tr>
-    <td><b>AI &amp; Engineering</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/PyTorch-18181b?style=flat-square&logo=pytorch&logoColor=ffffff" alt="PyTorch">
-      <img src="https://img.shields.io/badge/Transformers-18181b?style=flat-square&logo=huggingface&logoColor=ffffff" alt="Hugging Face">
-      <img src="https://img.shields.io/badge/Gemini_API-18181b?style=flat-square&logo=google&logoColor=ffffff" alt="Gemini">
-    </td>
-  </tr>
-  <tr>
-    <td><b>Infra &amp; DevOps</b></td>
-    <td>
-      <img src="https://img.shields.io/badge/Docker-18181b?style=flat-square&logo=docker&logoColor=ffffff" alt="Docker">
-      <img src="https://img.shields.io/badge/Azure-18181b?style=flat-square&logo=microsoftazure&logoColor=ffffff" alt="Azure">
-      <img src="https://img.shields.io/badge/Vercel-18181b?style=flat-square&logo=vercel&logoColor=ffffff" alt="Vercel">
-      <img src="https://img.shields.io/badge/Linux-18181b?style=flat-square&logo=linux&logoColor=ffffff" alt="Linux">
-      <img src="https://img.shields.io/badge/Git-18181b?style=flat-square&logo=git&logoColor=ffffff" alt="Git">
-    </td>
-  </tr>
-</table>
-
----
-
-### ✦ GitHub Telemetry
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" valign="middle">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=marvelpokemaster&show_icons=true&theme=transparent&title_color=ffffff&text_color=a1a1aa&icon_color=38bdf8&border_color=27272a&hide_border=false&hide_title=true">
-          <img src="https://github-readme-stats.vercel.app/api?username=marvelpokemaster&show_icons=true&theme=transparent&title_color=09090b&text_color=71717a&icon_color=0284c7&border_color=e4e4e7&hide_border=false&hide_title=true" alt="GitHub Stats">
-        </picture>
-      </td>
-      <td align="center" valign="middle">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=marvelpokemaster&layout=compact&theme=transparent&title_color=ffffff&text_color=a1a1aa&icon_color=a371f7&border_color=27272a&hide_border=false&hide_title=true">
-          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=marvelpokemaster&layout=compact&theme=transparent&title_color=09090b&text_color=71717a&icon_color=7c3aed&border_color=e4e4e7&hide_border=false&hide_title=true" alt="Top Languages">
-        </picture>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-### ✦ Engineering Philosophy
-
-> *"Code is a liability; architecture is an asset. I strive to design systems that are minimal, scalable, and inherently resilient. Rather than piecing together quick fixes, I value rigorous engineering standards, well-considered data schemas, and architectures that stand the test of time."*
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

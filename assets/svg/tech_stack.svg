@@ -1,0 +1,195 @@
+<svg width="800" height="240" viewBox="0 0 800 240" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;family=Outfit:wght@400;600;700&amp;display=swap');
+            text {
+                font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+            }
+            .mono {
+                font-family: 'Fira Code', monospace;
+            }
+            .cat-title { font-weight: 700; font-size: 11px; fill: #8b949e; letter-spacing: 2px; }
+            .tech-text { font-weight: 600; font-size: 11.5px; fill: #c9d1d9; }
+            .card-border { stroke: #30363d; stroke-width: 1.5; }
+        </style>
+        
+        <linearGradient id="stackGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0a0a0f" />
+            <stop offset="100%" stop-color="#161b22" />
+        </linearGradient>
+        
+        <radialGradient id="stackGlow" cx="0%" cy="0%" r="60%">
+            <stop offset="0%" stop-color="#a371f7" stop-opacity="0.1" />
+            <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+        </radialGradient>
+    </defs>
+    
+    <!-- Card Frame -->
+    <rect width="800" height="240" rx="12" fill="url(#stackGrad)" class="card-border" />
+    <rect width="800" height="240" rx="12" fill="url(#stackGlow)" style="pointer-events: none;" />
+    
+    <!-- Title and Subtitle -->
+    <text x="25" y="32" font-weight="700" font-size="16" fill="#ffffff" letter-spacing="-0.3px">Technical Arsenal</text>
+    <text x="775" y="32" class="mono" font-size="10" fill="#8b949e" text-anchor="end">[ STACK_PROVISIONED ]</text>
+    <line x1="25" y1="42" x2="775" y2="42" stroke="#30363d" stroke-width="1" />
+    
+        <!-- Column LANGUAGES -->
+        <g transform="translate(25, 58)">
+            <text class="mono cat-title" x="0" y="10">LANGUAGES</text>
+        
+            <!-- Tech Badge: Python -->
+            <g transform="translate(0, 24)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#3776ab" />
+                <text class="tech-text" x="25" y="18">Python</text>
+            </g>
+            
+            <!-- Tech Badge: TypeScript -->
+            <g transform="translate(0, 57)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#3178c6" />
+                <text class="tech-text" x="25" y="18">TypeScript</text>
+            </g>
+            
+            <!-- Tech Badge: JavaScript -->
+            <g transform="translate(0, 90)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#f7df1e" />
+                <text class="tech-text" x="25" y="18">JavaScript</text>
+            </g>
+            
+            <!-- Tech Badge: Go Language -->
+            <g transform="translate(0, 123)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#00add8" />
+                <text class="tech-text" x="25" y="18">Go Language</text>
+            </g>
+            
+            <!-- Tech Badge: Bash Shell -->
+            <g transform="translate(0, 156)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#4eaa25" />
+                <text class="tech-text" x="25" y="18">Bash Shell</text>
+            </g>
+            </g>
+
+        <!-- Column BACKEND & DATA -->
+        <g transform="translate(215, 58)">
+            <text class="mono cat-title" x="0" y="10">BACKEND & DATA</text>
+        
+            <!-- Tech Badge: Node.js -->
+            <g transform="translate(0, 24)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#339933" />
+                <text class="tech-text" x="25" y="18">Node.js</text>
+            </g>
+            
+            <!-- Tech Badge: FastAPI -->
+            <g transform="translate(0, 57)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#009688" />
+                <text class="tech-text" x="25" y="18">FastAPI</text>
+            </g>
+            
+            <!-- Tech Badge: PostgreSQL -->
+            <g transform="translate(0, 90)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#4169e1" />
+                <text class="tech-text" x="25" y="18">PostgreSQL</text>
+            </g>
+            
+            <!-- Tech Badge: Supabase -->
+            <g transform="translate(0, 123)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#3ecf8e" />
+                <text class="tech-text" x="25" y="18">Supabase</text>
+            </g>
+            
+            <!-- Tech Badge: REST / GraphQL -->
+            <g transform="translate(0, 156)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#e10098" />
+                <text class="tech-text" x="25" y="18">REST / GraphQL</text>
+            </g>
+            </g>
+
+        <!-- Column FRONTEND & INFRA -->
+        <g transform="translate(405, 58)">
+            <text class="mono cat-title" x="0" y="10">FRONTEND & INFRA</text>
+        
+            <!-- Tech Badge: React -->
+            <g transform="translate(0, 24)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#61dafb" />
+                <text class="tech-text" x="25" y="18">React</text>
+            </g>
+            
+            <!-- Tech Badge: Next.js -->
+            <g transform="translate(0, 57)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#ffffff" />
+                <text class="tech-text" x="25" y="18">Next.js</text>
+            </g>
+            
+            <!-- Tech Badge: TailwindCSS -->
+            <g transform="translate(0, 90)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#06b6d4" />
+                <text class="tech-text" x="25" y="18">TailwindCSS</text>
+            </g>
+            
+            <!-- Tech Badge: Docker -->
+            <g transform="translate(0, 123)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#2496ed" />
+                <text class="tech-text" x="25" y="18">Docker</text>
+            </g>
+            
+            <!-- Tech Badge: Azure Cloud -->
+            <g transform="translate(0, 156)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#0078d4" />
+                <text class="tech-text" x="25" y="18">Azure Cloud</text>
+            </g>
+            </g>
+
+        <!-- Column SYSTEMS & AI -->
+        <g transform="translate(595, 58)">
+            <text class="mono cat-title" x="0" y="10">SYSTEMS & AI</text>
+        
+            <!-- Tech Badge: Distributed Sys -->
+            <g transform="translate(0, 24)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#a371f7" />
+                <text class="tech-text" x="25" y="18">Distributed Sys</text>
+            </g>
+            
+            <!-- Tech Badge: Agentic Workflows -->
+            <g transform="translate(0, 57)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#f0883e" />
+                <text class="tech-text" x="25" y="18">Agentic Workflows</text>
+            </g>
+            
+            <!-- Tech Badge: OSINT Systems -->
+            <g transform="translate(0, 90)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#39c5cf" />
+                <text class="tech-text" x="25" y="18">OSINT Systems</text>
+            </g>
+            
+            <!-- Tech Badge: Git / GitHub -->
+            <g transform="translate(0, 123)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#f05032" />
+                <text class="tech-text" x="25" y="18">Git / GitHub</text>
+            </g>
+            
+            <!-- Tech Badge: Linux OS -->
+            <g transform="translate(0, 156)">
+                <rect width="172" height="28" rx="6" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+                <circle cx="12" cy="14" r="3.5" fill="#f82c00" />
+                <text class="tech-text" x="25" y="18">Linux OS</text>
+            </g>
+            </g>
+</svg>

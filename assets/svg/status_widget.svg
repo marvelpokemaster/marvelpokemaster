@@ -1,0 +1,96 @@
+<svg width="390" height="185" viewBox="0 0 390 185" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;family=Outfit:wght@400;600;700&amp;display=swap');
+            text {
+                font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif;
+            }
+            .mono {
+                font-family: 'Fira Code', monospace;
+            }
+            .card-border { stroke: #30363d; stroke-width: 1.5; }
+            
+            @keyframes translate-wave1 {
+                0% { transform: translate(0px, 0px); }
+                100% { transform: translate(-80px, 0px); }
+            }
+            @keyframes translate-wave2 {
+                0% { transform: translate(0px, 0px); }
+                100% { transform: translate(-120px, 0px); }
+            }
+            .wave1 {
+                animation: translate-wave1 3s linear infinite;
+            }
+            .wave2 {
+                animation: translate-wave2 2s linear infinite;
+            }
+        </style>
+        
+        <linearGradient id="statusGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#0a0a0f" />
+            <stop offset="100%" stop-color="#161b22" />
+        </linearGradient>
+        
+        <radialGradient id="statusGlow" cx="0%" cy="0%" r="60%">
+            <stop offset="0%" stop-color="#39c5cf" stop-opacity="0.1" />
+            <stop offset="100%" stop-color="rgba(0,0,0,0)" />
+        </radialGradient>
+        
+        <clipPath id="oscilloscope-clip">
+            <rect x="18" y="105" width="354" height="60" rx="6" />
+        </clipPath>
+        
+        <!-- Grid pattern for oscilloscope background -->
+        <pattern id="osc-grid" width="10" height="10" patternUnits="userSpaceOnUse">
+            <path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="0.75"/>
+        </pattern>
+        
+        <linearGradient id="border-grad-status" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#39c5cf" />
+            <stop offset="40%" stop-color="#30363d" />
+            <stop offset="100%" stop-color="#161b22" />
+        </linearGradient>
+    </defs>
+    
+    <!-- Card Frame -->
+    <rect width="390" height="185" rx="12" fill="url(#statusGrad)" stroke="url(#border-grad-status)" stroke-width="1.5" />
+    <rect width="390" height="185" rx="12" fill="url(#statusGlow)" style="pointer-events: none;" />
+    
+    <!-- Header -->
+    <g transform="translate(18, 30)">
+        <!-- Pulsing Active LED -->
+        <circle cx="5" cy="0" r="3" fill="#3ecf8e">
+            <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
+        </circle>
+        <text x="18" y="4" class="mono" font-weight="700" font-size="11" fill="#ffffff">SYSTEM MONITOR v2.4</text>
+        <text x="354" y="4" class="mono" font-size="9" fill="#8b949e" text-anchor="end">SYS_UPTIME: 99.98%</text>
+    </g>
+    
+    <!-- Monitor Details -->
+    <g transform="translate(18, 55)" class="mono" font-size="10" fill="#c9d1d9">
+        <text x="0" y="0"><tspan fill="#8b949e">&gt;</tspan> FOCUS: <tspan fill="#58a6ff">Agentic AI Workflows</tspan></text>
+        <text x="0" y="16"><tspan fill="#8b949e">&gt;</tspan> MVP: <tspan fill="#a371f7">BuildBridge matching engine</tspan></text>
+        <text x="0" y="32"><tspan fill="#8b949e">&gt;</tspan> BANDWIDTH: <tspan fill="#39c5cf">88.4 Gb/s</tspan> <tspan fill="#8b949e" dx="15">CPU:</tspan> <tspan fill="#3ecf8e">12%</tspan></text>
+    </g>
+    
+    <!-- Oscilloscope Display -->
+    <!-- Background Frame -->
+    <rect x="18" y="105" width="354" height="60" rx="6" fill="#07070a" stroke="#30363d" stroke-width="1" />
+    <rect x="18" y="105" width="354" height="60" rx="6" fill="url(#osc-grid)" />
+    
+    <!-- Oscilloscope Sine Waves (Clipped) -->
+    <g clip-path="url(#oscilloscope-clip)">
+        <!-- Wave 1 (Cyan) -->
+        <g class="wave1">
+            <path d="M 0 135 Q 20 115, 40 135 T 80 135 T 120 135 T 160 135 T 200 135 T 240 135 T 280 135 T 320 135 T 360 135 T 400 135 T 440 135 T 480 135 T 520 135" fill="none" stroke="#39c5cf" stroke-width="1.5" opacity="0.8" />
+        </g>
+        
+        <!-- Wave 2 (Purple - Phase Shifted and Slower) -->
+        <g class="wave2" transform="translate(0, 5)">
+            <path d="M 0 130 Q 30 110, 60 130 T 120 130 T 180 130 T 240 130 T 300 130 T 360 130 T 420 130 T 480 130 T 540 130 T 600 130" fill="none" stroke="#a371f7" stroke-width="1.2" opacity="0.6" />
+        </g>
+    </g>
+    
+    <!-- Overlay Glass Effect -->
+    <rect x="18" y="105" width="354" height="60" rx="6" fill="rgba(255, 255, 255, 0.01)" style="pointer-events: none;" />
+</svg>

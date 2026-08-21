@@ -1,0 +1,115 @@
+<svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&amp;family=Outfit:wght@400;600;800&amp;display=swap');
+            text {
+                font-family: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            }
+            .mono {
+                font-family: 'Fira Code', monospace;
+            }
+            .hero-title { font-weight: 800; font-size: 42px; fill: #ffffff; letter-spacing: -1px; }
+            .hero-role { font-weight: 600; font-size: 13px; fill: #8b949e; letter-spacing: 4px; }
+            .hero-tag { font-family: 'Fira Code', monospace; font-size: 11px; fill: #a371f7; }
+            
+            @keyframes pulse {
+                0%, 100% { opacity: 0.1; }
+                50% { opacity: 0.35; }
+            }
+            .grid-bg {
+                animation: pulse 8s ease-in-out infinite;
+            }
+            @keyframes rotate-clockwise {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(360deg); }
+            }
+            @keyframes rotate-counter {
+                from { transform: rotate(0deg); }
+                to { transform: rotate(-360deg); }
+            }
+            .spin-cw {
+                transform-origin: 130px 130px;
+                animation: rotate-clockwise 20s linear infinite;
+            }
+            .spin-ccw {
+                transform-origin: 130px 130px;
+                animation: rotate-counter 15s linear infinite;
+            }
+        </style>
+        
+        <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+            <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+        </pattern>
+        
+        <radialGradient id="glow-core" cx="130px" cy="130px" r="100px" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="rgba(163, 113, 247, 0.25)"/>
+            <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+        </radialGradient>
+        <radialGradient id="glow-right" cx="600px" cy="130px" r="200px" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="rgba(88, 166, 255, 0.15)"/>
+            <stop offset="100%" stop-color="rgba(0,0,0,0)"/>
+        </radialGradient>
+    </defs>
+    
+    <!-- Base Background -->
+    <rect width="100%" height="100%" fill="#0a0a0f" rx="16" />
+    <rect width="100%" height="100%" fill="url(#grid)" class="grid-bg" rx="16" />
+    
+    <!-- Glow Effects -->
+    <rect width="100%" height="100%" fill="url(#glow-core)" rx="16" />
+    <rect width="100%" height="100%" fill="url(#glow-right)" rx="16" />
+    
+    <!-- Cybernetic Core (Left) -->
+    <!-- Outer dashed ring -->
+    <circle cx="130" cy="130" r="75" fill="none" stroke="#30363d" stroke-width="1" />
+    <circle cx="130" cy="130" r="75" fill="none" stroke="#58a6ff" stroke-width="1.5" stroke-dasharray="15 35" class="spin-cw" />
+    
+    <!-- Middle detailed ring -->
+    <circle cx="130" cy="130" r="55" fill="none" stroke="rgba(163, 113, 247, 0.2)" stroke-width="3" />
+    <circle cx="130" cy="130" r="55" fill="none" stroke="#a371f7" stroke-width="1.5" stroke-dasharray="40 15 10 15" class="spin-ccw" />
+    
+    <!-- Core Hub -->
+    <g transform="translate(130, 130)">
+        <polygon points="0,-18 16,-9 16,9 0,18 -16,9 -16,-9" fill="#0a0a0f" stroke="#39c5cf" stroke-width="2">
+            <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+        </polygon>
+        <circle cx="0" cy="0" r="4" fill="#39c5cf">
+            <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+        </circle>
+    </g>
+    
+    <!-- Constellation Lines linking Core to Right Side -->
+    <path d="M 205 130 L 245 130" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" />
+    <circle cx="205" cy="130" r="2" fill="#58a6ff" />
+    <circle cx="245" cy="130" r="2" fill="#a371f7" />
+    
+    <!-- Title & Role Info (Right) -->
+    <g transform="translate(260, 85)">
+        <text class="mono hero-tag" y="0">&lt;SYSTEMS_ARCHITECT&gt;</text>
+        <text class="hero-title" y="42">ADARSH BINU</text>
+        <text class="hero-role" y="68">DISTRIBUTED SYSTEMS &amp; AGENTIC WORKFLOWS</text>
+    </g>
+    
+    <!-- Live Console Output Box -->
+    <g transform="translate(260, 175)">
+        <!-- Box Outline -->
+        <rect width="500" height="55" rx="8" fill="rgba(22, 27, 34, 0.6)" stroke="#30363d" stroke-width="1" />
+        <path d="M 0 10 L 0 0 L 10 0" stroke="#a371f7" stroke-width="2" fill="none" />
+        <path d="M 500 45 L 500 55 L 490 55" stroke="#a371f7" stroke-width="2" fill="none" />
+        
+        <!-- Blinking Online Light -->
+        <circle cx="25" cy="28" r="4" fill="#39c5cf">
+            <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="25" cy="28" r="8" fill="none" stroke="#39c5cf" stroke-width="1" opacity="0.5">
+            <animate attributeName="r" values="4;10;4" dur="2s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+        </circle>
+        
+        <text class="mono" x="45" y="32" font-size="11" fill="#c9d1d9">
+            <tspan fill="#8b949e">SYSTEM_STATUS:</tspan> ONLINE
+            <tspan fill="#8b949e" dx="20">COGNITION_LOAD:</tspan> OPTIMAL
+            <tspan fill="#8b949e" dx="20">LOC:</tspan> BLR, IN
+        </text>
+    </g>
+</svg>
